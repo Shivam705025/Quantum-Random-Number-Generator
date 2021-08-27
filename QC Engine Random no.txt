@@ -1,0 +1,5 @@
+qc.reset(3);
+qc.write(0);        
+qc.had();           
+var result = qcw.read();
+qc.print('result: ' + result + '\n');
